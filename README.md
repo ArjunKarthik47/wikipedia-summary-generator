@@ -29,25 +29,31 @@ pip install wikipedia pyttsx3
 
 ## 🚀 Installation
 ### 1. Clone the Repository
-
+```
+bash
 git clone https://github.com/your-username/wikipedia-summary-tool.git
 cd wikipedia-summary-tool
+```
 2. Install Required Libraries
+```
+bash
 pip install wikipedia pyttsx3
-3. Run the Application
+```
+4. Run the Application
+```
+bash
 python app.py
-
+```
 ## 🧭 Usage Guide
 Enter a Topic
 Type a topic (e.g., Python programming) into the input field.
-
-### Fetch Summary
+🔵 Fetch Summary
 Click the "Fetch Summary" button to retrieve a 10-sentence Wikipedia summary.
 
-### Save Summary
+🔵 Save Summary
 Click "Save as Topic File" to save the summary locally.
 
-### Speak Summary
+🔵 Speak Summary
 Click "Speak Summary" to hear the summary read aloud.
 
 ## 💡 Example Topics
@@ -66,12 +72,14 @@ Disambiguation Error: Suggests alternative topics if Wikipedia finds multiple pa
 Page Not Found: Displays an error if no Wikipedia page exists for the given input.
 
 ## 📁 Project Structure
+```
+bash
 wikipedia-summary-tool/
 │
 ├── app.py                # Main application script
 ├── README.md             # Documentation
 └── *.txt                 # Saved summaries (created after fetching)
-
+```
 ## 🧱 Tech Stack
 Python
 Tkinter (GUI)
