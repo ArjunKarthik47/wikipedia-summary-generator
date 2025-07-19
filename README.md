@@ -49,7 +49,7 @@ python app.py
 ## 🧭 Usage Guide
 
 🔹 **Enter a Topic**  
-Type a topic (e.g., Python programming) into the input field.
+Type a topic (e.g., `Python programming`) into the input field.
 
 🔹 **Fetch Summary**  
 Click the "Fetch Summary" button to retrieve a 10-sentence Wikipedia summary.
@@ -87,22 +87,23 @@ wikipedia-summary-tool/
 ## 🧱 Tech Stack
 - Python
 - Tkinter (GUI)
-- Wikipedia API (wikipedia package)
+- Wikipedia API (`wikipedia` package)
 - pyttsx3 (offline TTS)
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.See `LICENSE` file for details.
 
 ## 🙌 Acknowledgements
 
-- [Wikipedia Python Library] (https://pypi.org/project/wikipedia/)
-- [pyttsx3 Text-to-Speech Engine] (https://pypi.org/project/pyttsx3/)
-- [Tkinter - Python GUI Module] (https://docs.python.org/3/library/tkinter.html)
+- [Wikipedia Python Library](https://pypi.org/project/wikipedia/)
+- [pyttsx3 Text-to-Speech Engine](https://pypi.org/project/pyttsx3/)
+- [Tkinter - Python GUI Module](https://docs.python.org/3/library/tkinter.html)
 
 ## 📬Contact
 For questions, feedback, or suggestions:
 - 📧 thakurarjunkarthiksingh@gmail.com
 
-- 🐙 GitHub: @ArjunKarthik47
+- 🐙 GitHub: [@ArjunKarthik47](https://github.com/ArjunKarthik47)
+
 
 ---
