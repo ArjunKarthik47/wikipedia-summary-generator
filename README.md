@@ -24,14 +24,12 @@ A user-friendly Python desktop application that fetches, displays, speaks, and s
   - `tkinter` (comes with Python by default)
 
 Install dependencies using:
-```bash
+bash
 pip install wikipedia pyttsx3
 
-```markdown
 ## 🚀 Installation
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/wikipedia-summary-tool.git
 cd wikipedia-summary-tool
 2. Install Required Libraries
@@ -43,13 +41,13 @@ python app.py
 Enter a Topic
 Type a topic (e.g., Python programming) into the input field.
 
-Fetch Summary
+### Fetch Summary
 Click the "Fetch Summary" button to retrieve a 10-sentence Wikipedia summary.
 
-Save Summary
+### Save Summary
 Click "Save as Topic File" to save the summary locally.
 
-Speak Summary
+### Speak Summary
 Click "Speak Summary" to hear the summary read aloud.
 
 ## 💡 Example Topics
