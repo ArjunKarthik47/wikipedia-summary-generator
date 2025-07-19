@@ -1,4 +1,4 @@
-# wikipedia-summary-generator
+# Wikipedia-Summary-Generator
 # 🧠 Wikipedia Summary Tool
 
 A user-friendly Python desktop application that fetches, displays, speaks, and saves Wikipedia summaries using a simple GUI.
@@ -48,15 +48,15 @@ python app.py
 Enter a Topic
 Type a topic (e.g., Python programming) into the input field.
 
-🔹**Fetch Summary**
+🔹### Fetch Summary
 
 Click the "Fetch Summary" button to retrieve a 10-sentence Wikipedia summary.
 
-🔹**Save Summary**
+🔹### Save Summary
 
 Click "Save as Topic File" to save the summary locally.
 
-🔹**Speak Summary**
+🔹### Speak Summary
 
 Click "Speak Summary" to hear the summary read aloud.
 
@@ -69,11 +69,11 @@ Try searching for:
 - Elon Musk
 
 ## ⚠️ Error Handling
--**Empty Input->** Prompts the user to enter a topic.
+- **Empty Input->** Prompts the user to enter a topic.
 
--**Disambiguation Error->**Suggests alternative topics if Wikipedia finds multiple pages.
+- **Disambiguation Error->** Suggests alternative topics if Wikipedia finds multiple pages.
 
--**Page Not Found->** Displays an error if no Wikipedia page exists for the given input.
+- **Page Not Found->** Displays an error if no Wikipedia page exists for the given input.
 
 ## 📁 Project Structure
 ```
