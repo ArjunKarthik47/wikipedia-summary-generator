@@ -48,13 +48,13 @@ python app.py
 Enter a Topic
 Type a topic (e.g., Python programming) into the input field.
 
-🔵 Fetch Summary
+🔹**Fetch Summary**
 Click the "Fetch Summary" button to retrieve a 10-sentence Wikipedia summary.
 
-🔵 Save Summary
+🔹**Save Summary**
 Click "Save as Topic File" to save the summary locally.
 
-🔵 Speak Summary
+🔹**Speak Summary**
 Click "Speak Summary" to hear the summary read aloud.
 
 ## 💡 Example Topics
@@ -66,11 +66,11 @@ Try searching for:
 - Elon Musk
 
 ## ⚠️ Error Handling
-- Empty Input: Prompts the user to enter a topic.
+-**Empty Input->** Prompts the user to enter a topic.
 
-- Disambiguation Error: Suggests alternative topics if Wikipedia finds multiple pages.
+- **Disambiguation Error->**Suggests alternative topics if Wikipedia finds multiple pages.
 
-- Page Not Found: Displays an error if no Wikipedia page exists for the given input.
+- **Page Not Found->** Displays an error if no Wikipedia page exists for the given input.
 
 ## 📁 Project Structure
 ```
@@ -83,22 +83,28 @@ wikipedia-summary-tool/
 ```
 ## 🧱 Tech Stack
 - Python
+
 - Tkinter (GUI)
+  
 - Wikipedia API (wikipedia package)
+  
 - pyttsx3 (offline TTS)
 
 ## 📜 License
 This project is licensed under the MIT License.
 
-## Acknowledgements
-- Wikipedia Python Library
-- pyttsx3 Text-to-Speech
-- Python's tkinter module for GUI
+## 🙌 Acknowledgements
 
+- [Wikipedia Python Library](https://pypi.org/project/wikipedia/)
+  
+- [pyttsx3 Text-to-Speech Engine](https://pypi.org/project/pyttsx3/)
+  
+- [Tkinter - Python GUI Module](https://docs.python.org/3/library/tkinter.html)
 
 ## 📬Contact
 For questions, feedback, or suggestions:
 - 📧 thakurarjunkarthiksingh@gmail.com
+
 - 🐙 GitHub: @ArjunKarthik47
 
 ---
