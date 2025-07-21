@@ -62,11 +62,13 @@ Click "Speak Summary" to hear the summary read aloud.
 
 ## 💡 Example Topics
 Try searching for:
-- Alan Turing
+- William Shakespeare
 - Artificial Intelligence
-- World War II
-- Mount Everest
-- Elon Musk
+- World War I
+- Singapore
+- Albert Einstein
+- Cricket
+- Mathematics
 
 ## ⚠️ Error Handling
 - **Empty Input->** Prompts the user to enter a topic.
