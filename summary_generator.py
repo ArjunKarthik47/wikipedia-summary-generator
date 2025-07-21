@@ -11,7 +11,7 @@ def fetch_summary():
         return
 
     try:
-        summary = wikipedia.summary(topic, sentences=10)
+        summary = wikipedia.summary(topic, sentences=5)
         summary_box.delete(1.0, tk.END)
         summary_box.insert(tk.END, summary)
     except wikipedia.DisambiguationError as e:
